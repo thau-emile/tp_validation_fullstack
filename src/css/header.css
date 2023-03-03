@@ -64,3 +64,15 @@
   text-transform: capitalize;
   width: 20em;
 }
+
+/* partie modal payer mes agios */
+.overlay_modal_payer_agios {
+  position: absolute;
+  display: none;
+  width: 60%;
+  margin: auto;
+  background-color: gray;
+}
+.show_modal_payer_agios {
+  display: block;
+}
