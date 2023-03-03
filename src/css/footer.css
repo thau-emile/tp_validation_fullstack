@@ -3,6 +3,7 @@
 .index-footer {
   display: flex;
   flex-direction: column;
+  margin: 10px 10px;
 }
 
 .index-footer h2 {
@@ -40,7 +41,6 @@
 }
 
 .index-footer-bottom-box {
-  margin: 10px 10px;
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
 }
