@@ -1,5 +1,84 @@
 /*SECTION CENTRALE - SERVICES ET BLOC*/
-.services h1{
+/*titre*/
+.titre_services {
     background-color: #038C73;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.titre_services h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/*encarts services*/
+.services {
+    margin: 2rem 0;
+}
+
+.encarts {
+    display: flex;
+    color: white;
+}
+
+.encarts img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    margin: 2rem auto 3rem auto;
+}
+
+.encarts h2 {
+    text-align: center;
+}
+
+.compte {
+    background-color: #261C1A;
+}
+
+.retrait {
+    background-color: #8C807B;
+}
+
+.agios {
+    background-color: #373740;
+}
+
+.compte, .retrait, .agios {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.services button {
+    color: #038C73;
+    height:4rem;
+    margin: auto;
+    width: 12rem;
+}
+
+/*blocs*/
+
+.bloc_gris {
+    background-color: #373740;
+}
+
+.bloc_vert {
+    background-color:#038C73;
+}
+
+.premiere_ligne, .deuxieme_ligne, .troisieme_ligne {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 2rem 0;
+}
+
+.bloc_gris, .bloc_vert{
+    text-align: center;
+    width: 16rem;
+    height: 7rem;
 }
