@@ -84,8 +84,21 @@
               récupérez l'argent chez un de nos partenaires ou par un coursier
             </p>
             <img src="./img/atm.jpg" alt="Un atm" />
-            <button>Effectuer un retrait</button>
-          </div>
+
+            <button id="btn-modal-retrait">Effectuer un retrait</button>
+            <!-- The Modal -->
+            <div id="retrait-modal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Effectuer un retrait</h3>
+                <p>Votre solde</p>
+                <p>Montant du découvert autorisé</p>
+                <p>Montant du retrait</p>
+                <button class="retrait-validation">Valider</button>
+              </div>
+            </div>
+            </div>
 
           <div class="agios">
             <h2>Agios</h2>
@@ -291,6 +304,8 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
     <script src="js/script_modal_payer_agios.js"></script>
+
   </body>
 </html>
