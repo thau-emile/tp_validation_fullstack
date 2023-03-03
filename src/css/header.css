@@ -1,17 +1,26 @@
 /* style de la div qui continet l'image du logo et le lien Espace membre   */
-.contain_logo {
+.container_logo {
+  display: flex;
+  justify-content: space-between;
 }
 /*la div qui contient l'image logo */
 .logo {
   width: 100px;
   height: 100px;
   background-image: url(../img/logo.svg);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
-.espace_membre {
-  display: inline;
-  justify-content: flex-end;
+/*lien espace membre */
+.espace_membre a {
+  text-decoration: none;
+  color: black;
 }
 
+/* la div qui contient la bannière principale*/
 .banniere {
   display: block;
   width: 100%;
@@ -19,4 +28,17 @@
   background-image: url(../img/money.jpg);
   /* background-attachment: fixed; */
   background-size: cover;
+}
+
+/*la div qui contient le menu principale et la barre de recherche*/
+.container_menu {
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
 }
