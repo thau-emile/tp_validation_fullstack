@@ -13,6 +13,12 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  padding: 10px;
+}
+/* Escpace connexion membre*/
+.espace_membre {
+  display: flex;
+  padding: 10px;
 }
 /*lien espace membre */
 .espace_membre a {
@@ -35,10 +41,26 @@
   display: flex;
   margin: auto;
   margin-bottom: 20px;
-  width: 80%;
+  width: 60%;
+  justify-content: space-between;
 }
+/*le texte des liens dans le menu */
 .menu a {
   text-decoration: none;
   color: black;
-  padding: 20px;
+  padding: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+/*barre de recherche */
+.barre_recherche {
+  display: flex;
+}
+
+/*le texte affiché dans la barre de recherche */
+.barre_recherche input {
+  color: gray;
+  text-align: center;
+  text-transform: capitalize;
+  width: 20em;
 }
