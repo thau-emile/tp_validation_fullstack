@@ -39,6 +39,10 @@
     background-color: #261C1A;
 }
 
+.compte ul{
+    margin: 0;
+}
+
 .retrait {
     background-color: #8C807B;
 }
@@ -51,7 +55,6 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    justify-content: space-between;
 }
 
 .services button {
@@ -63,6 +66,12 @@
 
 /*blocs*/
 
+.bloc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .bloc_gris {
     background-color: #373740;
 }
@@ -71,14 +80,12 @@
     background-color:#038C73;
 }
 
-.premiere_ligne, .deuxieme_ligne, .troisieme_ligne {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 0 2rem 0;
-}
-
 .bloc_gris, .bloc_vert{
     text-align: center;
-    width: 16rem;
-    height: 7rem;
+    width: 24%;
+    height: 10rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
