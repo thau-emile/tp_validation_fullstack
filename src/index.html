@@ -57,32 +57,38 @@
         </div>
       </div>
       <div class="banniere"></div>
-      <!----------------------création du Modal 3------------------------------------->
-      <div class="overlay_modal_payer_agios">
-        <h2>Payer mes agios</h2>
-        <a href="#" class="close"
-          ><span class="material-symbols-outlined"> cancel </span></a
-        >
-        <form method="post">
-          <div class="montant_agios">
-            <label for="montant">Montant du découvert utilisé</label>
-            <input type="text" id="montant" name="text_montant" />
-          </div>
-          <div class="nbrJourAgios">
-            <label for="nbrJour"
-              >Nombre de jour d'utilisation du découvert&nbsp;:</label
-            >
-            <input type="text" id="nbrJour" name="textNbrJour" />
-          </div>
-          <div class="btValider">
-            <input class="button_valider_agios" type="button" value="Valider" />
-          </div>
-        </form>
-      </div>
-      <!------------------------------------------------------------------------------------>
     </header>
 
     <main>
+      <!----------------------création du Modal 3------------------------------------->
+      <div class="modal_3">
+        <div class="overlay_modal_payer_agios">
+          <h2>Payer mes agios</h2>
+          <a href="#" class="close"
+            ><span class="material-symbols-outlined"> cancel </span></a
+          >
+          <form method="post">
+            <div class="montant_agios">
+              <label for="montant">Montant du découvert utilisé</label>
+              <input type="text" id="montant" name="text_montant" />
+            </div>
+            <div class="nbrJourAgios">
+              <label for="nbrJour"
+                >Nombre de jour d'utilisation du découvert&nbsp;:</label
+              >
+              <input type="text" id="nbrJour" name="textNbrJour" />
+            </div>
+            <div class="btValider">
+              <input
+                class="button_valider_agios"
+                type="button"
+                value="Valider"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <!------------------------------------------------------------------------------------>
       <section class="services">
         <div class="titre_services">
           <h1>Nos services</h1>
@@ -124,7 +130,7 @@
                 <button class="retrait-validation">Valider</button>
               </div>
             </div>
-            </div>
+          </div>
 
           <div class="agios">
             <h2>Agios</h2>
@@ -315,6 +321,5 @@
     </footer>
     <script src="js/script.js"></script>
     <script src="js/script_modal_payer_agios.js"></script>
-
   </body>
 </html>
