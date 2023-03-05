@@ -61,18 +61,53 @@
 .barre_recherche input {
   color: gray;
   text-align: center;
-  text-transform: capitalize;
   width: 20em;
 }
 
-/* partie modal payer mes agios */
+/* lien espace membre */
+.espace_membre a {
+  padding-top: 5px;
+}
+
+/* partie modal payer mes agios : ici la classe qui fait disparaire l adiv */
 .overlay_modal_payer_agios {
   position: absolute;
   display: none;
-  width: 60%;
+  width: 80%;
   margin: auto;
-  background-color: gray;
+  background-color: white;
+  height: 15rem;
 }
+.montant_agios {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nbrJourAgios {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.btValider {
+  display: flex;
+  justify-content: center;
+}
+.button_valider_agios {
+  width: 15rem;
+  padding: 5px;
+  background-color: #038c73;
+  color: white;
+}
+/* ici la classe qui fait apparaitre le modal Payer mes agios  */
 .show_modal_payer_agios {
   display: block;
+}
+/* bouton qui ferme lo modal Payer mes agios */
+.close {
+  color: rgb(54, 51, 51);
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
