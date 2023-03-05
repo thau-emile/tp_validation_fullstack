@@ -3,10 +3,11 @@
 .index-footer {
   display: flex;
   flex-direction: column;
+  margin: 10px 10px;
 }
 
 .index-footer h2 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 5px 5px;
 }
 
@@ -15,7 +16,7 @@
 }
 
 .index-footer li {
-  padding: 5px 5px;
+  padding: 10px 5px;
 }
 
 .index-footer a {
@@ -40,7 +41,6 @@
 }
 
 .index-footer-bottom-box {
-  margin: 10px 10px;
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
 }
@@ -94,9 +94,15 @@
   text-align: center;
   border-right: 2px black solid;
   border-bottom: 2px black solid;
+  padding: 10px;
 }
 
 .index-footer-border-top-left {
   border-top: 2px black solid;
   border-left: 2px black solid;
+}
+
+.index-footer-link-nostyle {
+  text-decoration: none;
+  color: black;
 }

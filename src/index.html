@@ -110,8 +110,21 @@
               récupérez l'argent chez un de nos partenaires ou par un coursier
             </p>
             <img src="./img/atm.jpg" alt="Un atm" />
-            <button>Effectuer un retrait</button>
-          </div>
+
+            <button id="btn-modal-retrait">Effectuer un retrait</button>
+            <!-- The Modal -->
+            <div id="retrait-modal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Effectuer un retrait</h3>
+                <p>Votre solde</p>
+                <p>Montant du découvert autorisé</p>
+                <p>Montant du retrait</p>
+                <button class="retrait-validation">Valider</button>
+              </div>
+            </div>
+            </div>
 
           <div class="agios">
             <h2>Agios</h2>
@@ -165,11 +178,21 @@
           <nav>
             <h2>Ouvrir un compte</h2>
             <ul>
-              <li><span class="fa-solid fa-euro-sign"></span> Tarifs</li>
-              <li><span class="fa-solid fa-money-bill-1"></span> Acompte</li>
               <li>
-                <span class="fa-brands fa-creative-commons-zero"></span>
-                Découvert
+                <a href="#" class="index-footer-link-nostyle">
+                  <span class="fa-solid fa-euro-sign"></span> Tarifs
+                </a>
+              </li>
+              <li>
+                <a href="#" class="index-footer-link-nostyle">
+                  <span class="fa-solid fa-money-bill-1"></span> Acompte
+                </a>
+              </li>
+              <li>
+                <a href="#" class="index-footer-link-nostyle">
+                  <span class="fa-brands fa-creative-commons-zero"></span>
+                  Découvert
+                </a>
               </li>
             </ul>
           </nav>
@@ -181,11 +204,25 @@
             <h2>Nos partenaires</h2>
             <ul>
               <li>
-                <span class="fa-solid fa-building-user"></span> GT Chez toi
+                <a href="#" class="index-footer-link-nostyle">
+                  <span class="fa-solid fa-building-user"></span> GT Chez toi
+                </a>
               </li>
-              <li><span class="fa-solid fa-car-side"></span> GTM Car</li>
-              <li><span class="fa-solid fa-pizza-slice"></span> GM Manger</li>
-              <li><span class="fa-solid fa-plane-arrival"></span> GM Voler</li>
+              <li>
+                <a href="#" class="index-footer-link-nostyle">
+                  <span class="fa-solid fa-car-side"></span> GTM Car
+                </a>
+              </li>
+              <li>
+                <a href="#" class="index-footer-link-nostyle">
+                  <span class="fa-solid fa-pizza-slice"></span> GM Manger
+                </a>
+              </li>
+              <li>
+                <a href="#" class="index-footer-link-nostyle">
+                  <span class="fa-solid fa-plane-arrival"></span> GM Voler
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -196,14 +233,20 @@
             <h2>Ma banque</h2>
             <ul>
               <li>
-                <span class="fa-solid fa-location-dot"></span> Trouver une
-                agence
+                <a href="#" class="index-footer-link-nostyle">
+                  <span class="fa-solid fa-location-dot"></span> Trouver une
+                  agence
+                </a>
               </li>
               <li>
-                <span class="fa-solid fa-people-robbery"></span> Nos services
+                <a href="#" class="index-footer-link-nostyle">
+                  <span class="fa-solid fa-people-robbery"></span> Nos services
+                </a>
               </li>
               <li>
-                <span class="fa-regular fa-circle-question"></span> Nous
+                <a href="#" class="index-footer-link-nostyle">
+                  <span class="fa-regular fa-circle-question"></span> Nous
+                </a>
                 contacter
               </li>
             </ul>
@@ -253,7 +296,7 @@
         </div>
         <div class="index-footer-container-map index-footer-border-top-left">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d696.9051174979477!2d4.701855176835247!3d45.678518931538306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDQwJzQyLjciTiA0wrA0MicxMC43IkU!5e0!3m2!1sfr!2sfr!4v1677858185401!5m2!1sfr!2sfr"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d696.9063078666161!2d4.702869051842873!3d45.67842335667417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDQwJzQyLjciTiA0wrA0MicxMC43IkU!5e0!3m2!1sfr!2sfr!4v1677858397232!5m2!1sfr!2sfr"
             width="600"
             height="450"
             style="border: 0"
@@ -270,6 +313,8 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
     <script src="js/script_modal_payer_agios.js"></script>
+
   </body>
 </html>
